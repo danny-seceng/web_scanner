@@ -1,0 +1,306 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Web Scan Report - http://scanme.nmap.org</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif;margin:18px} 
+pre{background:#f4f4f4;padding:8px;border-radius:6px;white-space:pre-wrap} 
+table{border-collapse:collapse} 
+th,td{border:1px solid #ccc;padding:6px;text-align:left}
+</style>
+</head><body>
+<h1>Web Scan Report</h1>
+<p><strong>Target:</strong> http://scanme.nmap.org</p>
+<p><strong>Generated:</strong> 2026-02-07 08:25:38.243965</p>
+<hr/>
+<h2>HTTP Info</h2>
+<p>Status: 200 | Final URL: http://scanme.nmap.org/</p>
+<h3>Headers</h3>
+<pre>{
+  &quot;Date&quot;: &quot;Sat, 07 Feb 2026 16:25:25 GMT&quot;,
+  &quot;Server&quot;: &quot;Apache/2.4.7 (Ubuntu)&quot;,
+  &quot;Accept-Ranges&quot;: &quot;bytes&quot;,
+  &quot;Vary&quot;: &quot;Accept-Encoding&quot;,
+  &quot;Content-Encoding&quot;: &quot;gzip&quot;,
+  &quot;Content-Length&quot;: &quot;2068&quot;,
+  &quot;Keep-Alive&quot;: &quot;timeout=5, max=100&quot;,
+  &quot;Connection&quot;: &quot;Keep-Alive&quot;,
+  &quot;Content-Type&quot;: &quot;text/html&quot;
+}</pre>
+<h2>Security Headers</h2>
+<h3>Present</h3><pre>{}</pre>
+<h3>Missing</h3><pre>[
+  &quot;Strict-Transport-Security&quot;,
+  &quot;Content-Security-Policy&quot;,
+  &quot;X-Frame-Options&quot;,
+  &quot;X-Content-Type-Options&quot;,
+  &quot;Referrer-Policy&quot;,
+  &quot;Permissions-Policy&quot;,
+  &quot;Expect-CT&quot;
+]</pre>
+<h2>TLS / SSL</h2>
+<pre>{
+  &quot;note&quot;: &quot;not HTTPS&quot;
+}</pre>
+<h2>HTTP Methods</h2>
+<pre>{
+  &quot;allow_header&quot;: &quot;GET,HEAD,POST,OPTIONS&quot;,
+  &quot;methods_detected&quot;: [
+    &quot;GET&quot;,
+    &quot;HEAD&quot;,
+    &quot;POST&quot;,
+    &quot;OPTIONS&quot;
+  ]
+}</pre>
+<h2>Common Paths</h2>
+<table><tr><th>Path</th><th>Status</th><th>Interesting</th><th>Snippet/Error</th></tr>
+<tr><td>/</td><td>200</td><td>True</td><td><pre>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Go ahead and ScanMe!&lt;/title&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;
+&lt;meta name=&quot;theme-color&quot; content=&quot;#2A0D45&quot;&gt;
+&lt;link rel=&quot;preload&quot; as=&quot;image&quot; href=&quot;/images/sitelogo.png&quot; imagesizes=&quot;168px&quot; imagesrcset=&quot;/images/sitelogo.png, /images/sitelogo-2x.png 2x&quot;&gt;
+&lt;link rel=&quot;preload&quot; as=&quot;image&quot; href=&quot;/shared/images/nst-icons.svg&quot;&gt;
+&lt;l...</pre></td></tr>
+<tr><td>/.git/</td><td>404</td><td>False</td><td><pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;title&gt;404 Not Found&lt;/title&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;h1&gt;Not Found&lt;/h1&gt;
+&lt;p&gt;The requested URL /.git/ was not found on this server.&lt;/p&gt;
+&lt;hr&gt;
+&lt;address&gt;Apache/2.4.7 (Ubuntu) Server at scanme.nmap.org Port 80&lt;/address&gt;
+&lt;/body&gt;&lt;/html&gt;
+...</pre></td></tr>
+<tr><td>/.env</td><td>404</td><td>False</td><td><pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;title&gt;404 Not Found&lt;/title&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;h1&gt;Not Found&lt;/h1&gt;
+&lt;p&gt;The requested URL /.env was not found on this server.&lt;/p&gt;
+&lt;hr&gt;
+&lt;address&gt;Apache/2.4.7 (Ubuntu) Server at scanme.nmap.org Port 80&lt;/address&gt;
+&lt;/body&gt;&lt;/html&gt;
+...</pre></td></tr>
+<tr><td>/.env.example</td><td>404</td><td>False</td><td><pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;title&gt;404 Not Found&lt;/title&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;h1&gt;Not Found&lt;/h1&gt;
+&lt;p&gt;The requested URL /.env.example was not found on this server.&lt;/p&gt;
+&lt;hr&gt;
+&lt;address&gt;Apache/2.4.7 (Ubuntu) Server at scanme.nmap.org Port 80&lt;/address&gt;
+&lt;/body&gt;&lt;/html&gt;
+...</pre></td></tr>
+<tr><td>/robots.txt</td><td>404</td><td>False</td><td><pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;title&gt;404 Not Found&lt;/title&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;h1&gt;Not Found&lt;/h1&gt;
+&lt;p&gt;The requested URL /robots.txt was not found on this server.&lt;/p&gt;
+&lt;hr&gt;
+&lt;address&gt;Apache/2.4.7 (Ubuntu) Server at scanme.nmap.org Port 80&lt;/address&gt;
+&lt;/body&gt;&lt;/html&gt;
+...</pre></td></tr>
+<tr><td>/backup.zip</td><td>404</td><td>False</td><td><pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;title&gt;404 Not Found&lt;/title&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;h1&gt;Not Found&lt;/h1&gt;
+&lt;p&gt;The requested URL /backup.zip was not found on this server.&lt;/p&gt;
+&lt;hr&gt;
+&lt;address&gt;Apache/2.4.7 (Ubuntu) Server at scanme.nmap.org Port 80&lt;/address&gt;
+&lt;/body&gt;&lt;/html&gt;
+...</pre></td></tr>
+<tr><td>/backup.tar.gz</td><td>404</td><td>False</td><td><pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;title&gt;404 Not Found&lt;/title&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;h1&gt;Not Found&lt;/h1&gt;
+&lt;p&gt;The requested URL /backup.tar.gz was not found on this server.&lt;/p&gt;
+&lt;hr&gt;
+&lt;address&gt;Apache/2.4.7 (Ubuntu) Server at scanme.nmap.org Port 80&lt;/address&gt;
+&lt;/body&gt;&lt;/html&gt;
+...</pre></td></tr>
+<tr><td>/.htaccess</td><td>403</td><td>True</td><td><pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;title&gt;403 Forbidden&lt;/title&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;h1&gt;Forbidden&lt;/h1&gt;
+&lt;p&gt;You don&#x27;t have permission to access /.htaccess
+on this server.&lt;/p&gt;
+&lt;hr&gt;
+&lt;address&gt;Apache/2.4.7 (Ubuntu) Server at scanme.nmap.org Port 80&lt;/address&gt;
+&lt;/body&gt;&lt;/html&gt;
+...</pre></td></tr>
+<tr><td>/phpinfo.php</td><td>404</td><td>False</td><td><pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;title&gt;404 Not Found&lt;/title&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;h1&gt;Not Found&lt;/h1&gt;
+&lt;p&gt;The requested URL /phpinfo.php was not found on this server.&lt;/p&gt;
+&lt;hr&gt;
+&lt;address&gt;Apache/2.4.7 (Ubuntu) Server at scanme.nmap.org Port 80&lt;/address&gt;
+&lt;/body&gt;&lt;/html&gt;
+...</pre></td></tr>
+<tr><td>/info.php</td><td>404</td><td>False</td><td><pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;title&gt;404 Not Found&lt;/title&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;h1&gt;Not Found&lt;/h1&gt;
+&lt;p&gt;The requested URL /info.php was not found on this server.&lt;/p&gt;
+&lt;hr&gt;
+&lt;address&gt;Apache/2.4.7 (Ubuntu) Server at scanme.nmap.org Port 80&lt;/address&gt;
+&lt;/body&gt;&lt;/html&gt;
+...</pre></td></tr>
+<tr><td>/admin/</td><td>404</td><td>False</td><td><pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;title&gt;404 Not Found&lt;/title&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;h1&gt;Not Found&lt;/h1&gt;
+&lt;p&gt;The requested URL /admin/ was not found on this server.&lt;/p&gt;
+&lt;hr&gt;
+&lt;address&gt;Apache/2.4.7 (Ubuntu) Server at scanme.nmap.org Port 80&lt;/address&gt;
+&lt;/body&gt;&lt;/html&gt;
+...</pre></td></tr>
+<tr><td>/config.php</td><td>404</td><td>False</td><td><pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;title&gt;404 Not Found&lt;/title&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;h1&gt;Not Found&lt;/h1&gt;
+&lt;p&gt;The requested URL /config.php was not found on this server.&lt;/p&gt;
+&lt;hr&gt;
+&lt;address&gt;Apache/2.4.7 (Ubuntu) Server at scanme.nmap.org Port 80&lt;/address&gt;
+&lt;/body&gt;&lt;/html&gt;
+...</pre></td></tr>
+<tr><td>/wp-login.php</td><td>404</td><td>False</td><td><pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;title&gt;404 Not Found&lt;/title&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;h1&gt;Not Found&lt;/h1&gt;
+&lt;p&gt;The requested URL /wp-login.php was not found on this server.&lt;/p&gt;
+&lt;hr&gt;
+&lt;address&gt;Apache/2.4.7 (Ubuntu) Server at scanme.nmap.org Port 80&lt;/address&gt;
+&lt;/body&gt;&lt;/html&gt;
+...</pre></td></tr>
+<tr><td>/server-status</td><td>404</td><td>False</td><td><pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;title&gt;404 Not Found&lt;/title&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;h1&gt;Not Found&lt;/h1&gt;
+&lt;p&gt;The requested URL /server-status was not found on this server.&lt;/p&gt;
+&lt;hr&gt;
+&lt;address&gt;Apache/2.4.7 (Ubuntu) Server at scanme.nmap.org Port 80&lt;/address&gt;
+&lt;/body&gt;&lt;/html&gt;
+...</pre></td></tr>
+<tr><td>/.DS_Store</td><td>404</td><td>False</td><td><pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;title&gt;404 Not Found&lt;/title&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;h1&gt;Not Found&lt;/h1&gt;
+&lt;p&gt;The requested URL /.DS_Store was not found on this server.&lt;/p&gt;
+&lt;hr&gt;
+&lt;address&gt;Apache/2.4.7 (Ubuntu) Server at scanme.nmap.org Port 80&lt;/address&gt;
+&lt;/body&gt;&lt;/html&gt;
+...</pre></td></tr>
+</table>
+<h2>Directory Listing Checks</h2>
+<pre>{
+  &quot;results&quot;: [
+    {
+      &quot;dir&quot;: &quot;/&quot;,
+      &quot;url&quot;: &quot;http://scanme.nmap.org/&quot;,
+      &quot;listing&quot;: false,
+      &quot;status&quot;: 200
+    },
+    {
+      &quot;dir&quot;: &quot;/&quot;,
+      &quot;url&quot;: &quot;http://scanme.nmap.org/&quot;,
+      &quot;listing&quot;: false,
+      &quot;status&quot;: 200
+    },
+    {
+      &quot;dir&quot;: &quot;/images/&quot;,
+      &quot;url&quot;: &quot;http://scanme.nmap.org/images/&quot;,
+      &quot;listing&quot;: true
+    },
+    {
+      &quot;dir&quot;: &quot;/uploads/&quot;,
+      &quot;url&quot;: &quot;http://scanme.nmap.org/uploads/&quot;,
+      &quot;listing&quot;: false,
+      &quot;status&quot;: 404
+    },
+    {
+      &quot;dir&quot;: &quot;/static/&quot;,
+      &quot;url&quot;: &quot;http://scanme.nmap.org/static/&quot;,
+      &quot;listing&quot;: false,
+      &quot;status&quot;: 404
+    },
+    {
+      &quot;dir&quot;: &quot;/wp-content/&quot;,
+      &quot;url&quot;: &quot;http://scanme.nmap.org/wp-content/&quot;,
+      &quot;listing&quot;: false,
+      &quot;status&quot;: 404
+    }
+  ]
+}</pre>
+<h2>Nmap Output</h2>
+<pre>&quot;b&#x27;&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;UTF-8\&quot;?&gt;\\n&lt;!DOCTYPE nmaprun&gt;\\n&lt;?xml-stylesheet href=\&quot;file:///usr/local/bin/../share/nmap/nmap.xsl\&quot; type=\&quot;text/xsl\&quot;?&gt;\\n&lt;!-- Nmap 7.98 scan initiated Sat Feb  7 08:25:26 2026 as: nmap -oX - -p 80 -sV scanme.nmap.org --&gt;\\n&lt;nmaprun scanner=\&quot;nmap\&quot; args=\&quot;nmap -oX - -p 80 -sV scanme.nmap.org\&quot; start=\&quot;1770481526\&quot; startstr=\&quot;Sat Feb  7 08:25:26 2026\&quot; version=\&quot;7.98\&quot; xmloutputversion=\&quot;1.05\&quot;&gt;\\n&lt;scaninfo type=\&quot;connect\&quot; protocol=\&quot;tcp\&quot; numservices=\&quot;1\&quot; services=\&quot;80\&quot;/&gt;\\n&lt;verbose level=\&quot;0\&quot;/&gt;\\n&lt;debugging level=\&quot;0\&quot;/&gt;\\n&lt;hosthint&gt;&lt;status state=\&quot;up\&quot; reason=\&quot;unknown-response\&quot; reason_ttl=\&quot;0\&quot;/&gt;\\n&lt;address addr=\&quot;45.33.32.156\&quot; addrtype=\&quot;ipv4\&quot;/&gt;\\n&lt;hostnames&gt;\\n&lt;hostname name=\&quot;scanme.nmap.org\&quot; type=\&quot;user\&quot;/&gt;\\n&lt;/hostnames&gt;\\n&lt;/hosthint&gt;\\n&lt;host starttime=\&quot;1770481526\&quot; endtime=\&quot;1770481533\&quot;&gt;&lt;status state=\&quot;up\&quot; reason=\&quot;syn-ack\&quot; reason_ttl=\&quot;0\&quot;/&gt;\\n&lt;address addr=\&quot;45.33.32.156\&quot; addrtype=\&quot;ipv4\&quot;/&gt;\\n&lt;hostnames&gt;\\n&lt;hostname name=\&quot;scanme.nmap.org\&quot; type=\&quot;user\&quot;/&gt;\\n&lt;hostname name=\&quot;scanme.nmap.org\&quot; type=\&quot;PTR\&quot;/&gt;\\n&lt;/hostnames&gt;\\n&lt;ports&gt;&lt;port protocol=\&quot;tcp\&quot; portid=\&quot;80\&quot;&gt;&lt;state state=\&quot;open\&quot; reason=\&quot;syn-ack\&quot; reason_ttl=\&quot;0\&quot;/&gt;&lt;service name=\&quot;http\&quot; product=\&quot;Apache httpd\&quot; version=\&quot;2.4.7\&quot; extrainfo=\&quot;(Ubuntu)\&quot; method=\&quot;probed\&quot; conf=\&quot;10\&quot;&gt;&lt;cpe&gt;cpe:/a:apache:http_server:2.4.7&lt;/cpe&gt;&lt;/service&gt;&lt;/port&gt;\\n&lt;/ports&gt;\\n&lt;times srtt=\&quot;13076\&quot; rttvar=\&quot;9923\&quot; to=\&quot;100000\&quot;/&gt;\\n&lt;/host&gt;\\n&lt;runstats&gt;&lt;finished time=\&quot;1770481533\&quot; timestr=\&quot;Sat Feb  7 08:25:33 2026\&quot; summary=\&quot;Nmap done at Sat Feb  7 08:25:33 2026; 1 IP address (1 host up) scanned in 6.57 seconds\&quot; elapsed=\&quot;6.57\&quot; exit=\&quot;success\&quot;/&gt;&lt;hosts up=\&quot;1\&quot; down=\&quot;0\&quot; total=\&quot;1\&quot;/&gt;\\n&lt;/runstats&gt;\\n&lt;/nmaprun&gt;\\n&#x27;&quot;
+
+-- parsed scan result (json-like) --
+{
+  &quot;nmap&quot;: {
+    &quot;command_line&quot;: &quot;nmap -oX - -p 80 -sV scanme.nmap.org&quot;,
+    &quot;scaninfo&quot;: {
+      &quot;tcp&quot;: {
+        &quot;method&quot;: &quot;connect&quot;,
+        &quot;services&quot;: &quot;80&quot;
+      }
+    },
+    &quot;scanstats&quot;: {
+      &quot;timestr&quot;: &quot;Sat Feb  7 08:25:33 2026&quot;,
+      &quot;elapsed&quot;: &quot;6.57&quot;,
+      &quot;uphosts&quot;: &quot;1&quot;,
+      &quot;downhosts&quot;: &quot;0&quot;,
+      &quot;totalhosts&quot;: &quot;1&quot;
+    }
+  },
+  &quot;scan&quot;: {
+    &quot;45.33.32.156&quot;: {
+      &quot;hostnames&quot;: [
+        {
+          &quot;name&quot;: &quot;scanme.nmap.org&quot;,
+          &quot;type&quot;: &quot;user&quot;
+        },
+        {
+          &quot;name&quot;: &quot;scanme.nmap.org&quot;,
+          &quot;type&quot;: &quot;PTR&quot;
+        }
+      ],
+      &quot;addresses&quot;: {
+        &quot;ipv4&quot;: &quot;45.33.32.156&quot;
+      },
+      &quot;vendor&quot;: {},
+      &quot;status&quot;: {
+        &quot;state&quot;: &quot;up&quot;,
+        &quot;reason&quot;: &quot;syn-ack&quot;
+      },
+      &quot;tcp&quot;: {
+        &quot;80&quot;: {
+          &quot;state&quot;: &quot;open&quot;,
+          &quot;reason&quot;: &quot;syn-ack&quot;,
+          &quot;name&quot;: &quot;http&quot;,
+          &quot;product&quot;: &quot;Apache httpd&quot;,
+          &quot;version&quot;: &quot;2.4.7&quot;,
+          &quot;extrainfo&quot;: &quot;(Ubuntu)&quot;,
+          &quot;conf&quot;: &quot;10&quot;,
+          &quot;cpe&quot;: &quot;cpe:/a:apache:http_server:2.4.7&quot;
+        }
+      }
+    }
+  }
+}</pre>
+<h2>Vulnerabilities (heuristic)</h2>
+<pre>[
+  &quot;Missing X-Content-Type-Options header (could allow MIME sniffing).&quot;
+]</pre>
+<hr/><p>Scan finished.</p></body></html>
